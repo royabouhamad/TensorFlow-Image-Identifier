@@ -4,7 +4,6 @@ import tensorflow as tf
 def label(filePath):
     os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
-    # change this as you see fit
     image_path = filePath
 
     # Read in the image_data
