@@ -23,6 +23,7 @@ class Identifier(QMainWindow):
         self.label = QLabel(self)
         self.label.resize(500, 500)
         self.label.setPixmap(QPixmap('images/NoImage.jpg').scaled(self.width(), self.height(), Qt.KeepAspectRatio))
+        self.label.setAlignment(Qt.AlignCenter)
         self.label.show()
 
         self.setGeometry(300, 300, 500, 600)
